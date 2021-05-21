@@ -10,7 +10,6 @@ env:
   tf_target_dir: example/examplea
   AZDO_ORG_SERVICE_URL: ${{ secrets.AZDO_ORG_SERVICE_URL }}
   AZDO_PERSONAL_ACCESS_TOKEN: ${{ secrets.AZDO_PERSONAL_ACCESS_TOKEN }}
-  branch: master
 jobs:
   terraform:
     runs-on: ubuntu-latest
